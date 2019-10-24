@@ -1,3 +1,5 @@
+package devops_project.devops;
+
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -19,6 +21,9 @@ public class JXBusyLabelTest extends JFrame implements ActionListener {
 	JButton btnStart, btnStop;
 	Color[] colors = {Color.BLACK, Color.WHITE, Color.RED, Color.BLUE, Color.GREEN, Color.GRAY, Color.YELLOW};
 
+	/**
+	 * Class JXBusyLabelTest
+	 */
 	public JXBusyLabelTest() {
 		bLabel1 = new JXBusyLabel(new Dimension(60, 60));
 		bLabel1.setBusy(true);
